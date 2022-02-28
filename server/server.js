@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const schema = require('./schema/schema');
 require('dotenv').config({
-  path: './prod.env'
+  path: './local.env'
 })
 
 const app = express();

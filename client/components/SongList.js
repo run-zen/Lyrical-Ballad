@@ -63,6 +63,7 @@ class SongList extends Component {
                     this.state.loading ? <LineLoader /> : null
                 }
                 <div className={'container p-3'}>
+                    <h3>Song List</h3>
                     <ul className={'collection'}>
                         {!this.props.data.loading ? this.RenderSongs() : null}
                     </ul>
