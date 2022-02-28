@@ -9,6 +9,7 @@ const SongType = new GraphQLObjectType({
   fields: () => ({
     id: { type: GraphQLID },
     title: { type: GraphQLString },
+    blah:{type:GraphQLString},
     lyrics: {
       type: new GraphQLList(LyricType),
       resolve(parentValue) {

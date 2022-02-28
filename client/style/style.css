@@ -1,0 +1,22 @@
+.fixed-bottom {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.cus_pointer {
+    cursor: pointer !important;
+}
+
+.collection {
+    overflow: visible;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.progress {
+    margin: 0 !important;
+}
